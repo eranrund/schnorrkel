@@ -29,9 +29,10 @@ version = "0.5.2"
 default-features = false
 
 [dependencies.curve25519-dalek]
-package = "curve25519-dalek-ng"
-# git = "https://github.com/dalek-cryptography/curve25519-dalek"
-version = "4.0"
+# TODO fork to our org
+git = "https://github.com/PaulGrandperrin/curve25519-dalek.git"
+rev = "d0dacb2"
+version = "3.0"
 default-features = false
 
 # [dependencies.ed25519-dalek]
