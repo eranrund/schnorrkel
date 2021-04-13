@@ -41,7 +41,6 @@ default-features = false
 # optional = true
 
 [dependencies.subtle]
-package = "subtle-ng"
 version = "2.2.1"
 default-features = false
 
