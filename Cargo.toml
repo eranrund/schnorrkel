@@ -29,10 +29,7 @@ version = "0.5.2"
 default-features = false
 
 [dependencies.curve25519-dalek]
-# TODO fork to our org
-git = "https://github.com/PaulGrandperrin/curve25519-dalek.git"
-rev = "d0dacb2"
-version = "3.0"
+version = "4.0.0-pre.0"
 default-features = false
 
 # [dependencies.ed25519-dalek]
